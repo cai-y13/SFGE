@@ -51,5 +51,21 @@ We now support the experiments of the models published in torchvision on ImageNe
 
 There are two steps to run the experiments.<br/>
 First, for generating the keys for each layer, run: <br/>
-`python main_generate_keys.py`
+`python main_generate_key.py`
+
+Second, for encrypting the models, run:<br/>
+`python main_encrypt.py`
+
+You can also modify the configuration in `config.py`. The configurable items include:<br/>
+- MODEL
+  - NAME: the name of the deployed model, e.g. vgg16, resnet18, resnet50, etc.
+- SAMPLE_DATASET: the sample dataset for generating the keys
+- VAL_DATASET: the validation dataset for evaluating the encryption effectiveness
+- ENCRYPT: the encryption configurations
+  - NUM: the number of encrypted weights per layer
+  - INTENSITY: the intensity of the perturbation added on the weights
+  - INCREMENTAL: if incrementally generating the keys
+  - MAX_PERCENT: the maximum percentage of encrypted weights in the layer
+
+## Citation
 
