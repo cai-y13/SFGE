@@ -36,5 +36,6 @@ For more details, please refer to the paper.<br/>
   VGG-16 | ImageNet | 30 | 0.2 | 71.59% / 90.38 | 0.818% / 3.478%
   
 
-
+### Incremental SFGE (i-SFGE)
+We also strengthen the keys by incrementally generating them one by one. 
 
