@@ -38,7 +38,7 @@ For more details, please refer to the paper.<br/>
 
 ### Incremental SFGE (i-SFGE)
 We also strengthen the keys by incrementally generating them one by one. <br/>
-<img src="https://github.com/cai-y13/SFGE/blob/master/pic/iSFGE.png" width="400" alt="Method framework"/>
+<img src="https://github.com/cai-y13/SFGE/blob/master/pic/iSFGE.png" width="400" alt="Comparing iSFGE"/>
 
 ## Installation
 Requirements:<br/>
@@ -52,12 +52,12 @@ We now support the experiments of the models published in torchvision on ImageNe
 There are two steps to run the experiments.<br/>
 First, for generating the keys for each layer, run: <br/>
 ```
-python main_generate_key.py`
+python main_generate_key.py
 ```
 
 Second, for encrypting the models, run:<br/>
 ```
-python main_encrypt.py`
+python main_encrypt.py
 ```
 
 You can also modify the configuration in `config.py`. The configurable items include:<br/>
