@@ -28,7 +28,8 @@ For more details, please refer to the paper.<br/>
 
 ## Main Results
 ### Encryption Effectiveness
-|  Model | Dataset | #Encryption/Layer | Encryption Intensity | Baseline (top-1/5) | Encrypted (top-1/5) | 
-|  ResNet-18 | ImageNet | 20 | 0.2 | 69.75%/89.07& | 0.704%/2.452% |
+  Model | Dataset | #Encryption/Layer | Encryption Intensity | Baseline (top-1/5) | Encrypted (top-1/5)  
+  ----- | -----   | ---- | --- | --- | --- |
+  ResNet-18 | ImageNet | 20 | 0.2 | 69.75%/89.07& | 0.704%/2.452% 
 
 
