@@ -13,7 +13,7 @@ Neural network (NN) computing is energy-consuming on traditional computing syste
 
 ## Method
 Figure
-![avatar](pic/framework.pdf)
+![avatar](https://github.com/cai-y13/SFGE/blob/master/pic/framework.pdf)
 
 ## Highlights
 - Functionality: The normal function of the CIM accelerators can be guaranteed.
