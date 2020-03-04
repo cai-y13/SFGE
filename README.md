@@ -12,8 +12,13 @@ Enabling Secure in-Memory Neural Network Computing by Sparse Fast Gradient Encry
 Neural network (NN) computing is energy-consuming on traditional computing systems, owing to the inherent memory wall bottleneck of the von Neumann architecture and the Moore’s Law being approaching the end. Non-volatile memories (NVMs) have been demonstrated as promising alternatives for constructing computing-in-memory (CiM) systems to accelerate NN computing. However, NVM-based NN computing systems are vulnerable to the confidentiality attacks because the weight parameters persist in memory when the system is powered off, enabling an attacker with physical access to extract the well-trained NN models. The goal of this work is to find a solution for thwarting the confidentiality attacks. We define and model the weight encryption problem. Then we propose an effective framework, containing a sparse fast gradient encryption (SFGE) method and a runtime encryption scheduling (RES) scheme, to guarantee the confidentiality security of NN models with a negligible performance overhead. The experiments demonstrate that only encrypting an extremely small proportion of the weights (e.g., 20 weights per layer in ResNet-101), the NN models can be strictly protected.
 
 ## Method
-Figure
 <img src="https://github.com/cai-y13/SFGE/blob/master/pic/method.png" width="500" alt="Method framework"/>
+
+We propose an efficient framework, including:<br/>
+- Sparse Fast Gradient Encryption (SFGE): to decide where and how to encrypt the deployed NN models<br/>
+- Runtime Encryption Scheduling: to decide when to encrypt/decrypt the NN models<br/>
+
+For more details, please refer to the paper.<br/>
 
 ## Highlights
 - Functionality: The normal function of the CIM accelerators can be guaranteed.
@@ -22,6 +27,8 @@ Figure
 
 
 ## Main Results
-
+### Encryption Effectiveness
+|  Model | Dataset | #Encryption/Layer | Encryption Intensity | Baseline (top-1/5) | Encrypted (top-1/5) | 
+|  ResNet-18 | ImageNet | 20 | 0.2 | 69.75%/89.07& | 0.704%/2.452% |
 
 
