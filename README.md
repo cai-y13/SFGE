@@ -40,3 +40,12 @@ For more details, please refer to the paper.<br/>
 We also strengthen the keys by incrementally generating them one by one. <br/>
 <img src="https://github.com/cai-y13/SFGE/blob/master/pic/iSFGE.png" width="400" alt="Method framework"/>
 
+## Installation
+Requirements:<br/>
+- PyTorch (=1.0.1)
+- Torchvision
+- tqdm, json
+
+## Run SFGE
+
+
