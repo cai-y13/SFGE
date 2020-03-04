@@ -1,10 +1,10 @@
 # Sparse Fast Gradient Encryption
 
 Enabling Secure in-Memory Neural Network Computing by Sparse Fast Gradient Encryption
->International Conference on Computer-Aided Design 2019
->Yi Cai, Xiaoming Chen, Lu Tian, Yu Wang, Huazhong Yang
->Contact: caiy17@mails.tsinghua.edu.cn, yu-wang@tsinghua.edu.cn
->Any questions or discussions are welcomed!
+>Published in International Conference on Computer-Aided Design 2019<br/>
+>Yi Cai, Xiaoming Chen, Lu Tian, Yu Wang, Huazhong Yang<br/>
+>Contact: caiy17@mails.tsinghua.edu.cn, yu-wang@tsinghua.edu.cn<br/>
+>Any questions or discussions are welcomed!<br/>
 
 
 ## Abstract
