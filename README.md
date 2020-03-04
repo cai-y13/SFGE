@@ -30,6 +30,11 @@ For more details, please refer to the paper.<br/>
 ### Encryption Effectiveness
   Model | Dataset | #Encryption / Layer | Encryption Intensity | Baseline (top-1/5) | Encrypted (top-1/5)  
   ----- | -----   | ---- | --- | --- | --- 
-  ResNet-18 | ImageNet | 20 | 0.2 | 69.75% / 89.07& | 0.704% / 2.452% 
+  ResNet-18 | ImageNet | 20 | 0.2 | 69.75% / 89.07% | 0.704% / 2.452% 
+  ResNet-50 | ImageNet | 30 | 0.1 | 76.13% / 92.86% | 0.438% / 1.540%
+  ResNet-101 | ImageNet | 20 | 0.1 | 77.38% / 93.54% | 0.144% / 0.758%
+  VGG-16 | ImageNet | 30 | 0.2 | 71.59% / 90.38 | 0.818% / 3.478%
+  
+
 
 
