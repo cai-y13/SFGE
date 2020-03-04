@@ -51,14 +51,14 @@ We now support the experiments of the models published in torchvision on ImageNe
 
 There are two steps to run the experiments.<br/>
 First, for generating the keys for each layer, run: <br/>
-'''
+```
 python main_generate_key.py`
-'''
+```
 
 Second, for encrypting the models, run:<br/>
-'''
+```
 python main_encrypt.py`
-'''
+```
 
 You can also modify the configuration in `config.py`. The configurable items include:<br/>
 - MODEL
@@ -72,8 +72,8 @@ You can also modify the configuration in `config.py`. The configurable items inc
   - MAX_PERCENT: the maximum percentage of encrypted weights in the layer
 
 ## Citation
-If you find this project useful for your research, please use the following BibTeX entry.
-'''
+If you find this project useful for your research, please use the following BibTeX entry.<br/>
+```
 @inproceedings{cai2019enabling,
   title={Enabling Secure in-Memory Neural Network Computing by Sparse Fast Gradient Encryption},
   author={Cai, Yi and Chen, Xiaoming and Tian, Lu and Wang, Yu and Yang, Huazhong},
@@ -82,4 +82,4 @@ If you find this project useful for your research, please use the following BibT
   year={2019},
   organization={IEEE}
 }
-'''
+```
