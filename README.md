@@ -38,4 +38,5 @@ For more details, please refer to the paper.<br/>
 
 ### Incremental SFGE (i-SFGE)
 We also strengthen the keys by incrementally generating them one by one. 
+<img src="https://github.com/cai-y13/SFGE/blob/master/pic/iSFGE.png" width="300" alt="Method framework"/>
 
