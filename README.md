@@ -47,5 +47,9 @@ Requirements:<br/>
 - tqdm, json
 
 ## Run SFGE
+We now support the experiments of the models published in torchvision on ImageNet dataset. Later we will support more tasks (e.g. object detection). You can also add your own model to run the experiments.<br/>
 
+There are two steps to run the experiments.<br/>
+First, for generating the keys for each layer, run: <br/>
+`python main_generate_keys.py`
 
